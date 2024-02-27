@@ -4,11 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+    #resume{
+      color: brown;
+      font-style: italic;
+
+    }
+    .b{
+      color:blue;
+      font-style: italic;
+      text-decoration-line: none;
+    }
+    .a{
+      color:red;
+      font-weight:bold ;
+    }
+  </style>
   </head>
   <body>
     <!-- Header Section -->
     <header>
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+        <p class="a"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
           </svg>&nbsp;Gautami Kale &nbsp;&nbsp;&nbsp;
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
@@ -18,21 +34,21 @@
             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zm.192 8.159 6.57-4.027L8 9.586l1.239-.757.367.225A4.49 4.49 0 0 0 8 12.5c0 .526.09 1.03.256 1.5H2a2 2 0 0 1-1.808-1.144M16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z"/>
             <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-1.646a.5.5 0 0 1-.722-.016l-1.149-1.25a.5.5 0 1 1 .737-.676l.28.305V11a.5.5 0 0 1 1 0v1.793l.396-.397a.5.5 0 0 1 .708.708z"/>
           </svg> &nbsp;Email:gautamisaurabh@gmail.com
-          <a href="assets/resume.pdf">
+          <a href="assets/resume.pdf " id="resume">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
               <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
             </svg>
-            DOWNLOAD RESUME</a>
+             RESUME</a>
         </p>
     </header>
     <!-- Nevigation Section -->
     <nav>
-        <a href="#home">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#project">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#techstack">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="personaldetail.html">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#education">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#other">OTHERS</a>
+        <a href="#home" class="b">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#project" class="b">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#techstack" class="b">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="personaldetail.html" class="b">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#education" class="b">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#other" class="b">OTHERS</a>
         
     </nav>
     <!-- Main section -->
@@ -40,7 +56,7 @@
         
         <!-- HOME Section -->
       <section id="home">
-        <h2>Professional Summary</h2>
+        <h2 style="color: blue;font-style: italic; ">Professional Summary</h2>
         <ul>
           <li>Having a 1 years of experience in developing single pge web Application using Angular 8,HTML5,CSS,Bootstrap 5,JavaScript,TypeScript.</li>
           <li>Experience on working with version control system-GIT and GitHub</li>
@@ -145,20 +161,7 @@
 </tr>
 </table>
 <hr>
-<section id="personaldetails">
-  <h2>Profile Photo</h2>
-  <img src="31Cd9UQp6eL.jpg" alt="" height="200" width="200">
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gautami Kale <br>
-  <p> <strong>Mobile:</strong>1345690909 <br>
-  <strong>Email:gautamisaurabh@gmail.com</strong> <br>
-  <strong>Date of Birth:</strong>Nov-11-1997
-  <strong>Address:Sangamner</strong><br>
-  <strong>Family Details</strong></p>
-  <ul>
-    <li>Father Name:Changdev Wable</li>
-    <li>Mother Name:seema wable</li>
-  </ul>
-</section>
+
     </section>
 
     <!-- Footer Section -->
@@ -174,12 +177,6 @@
       </svg>Linkend</a>
       
     </footer>
-    section>
-
-      <!-- Copy write section -->
-
-      Copyright &copy;2024, Inc. All rights reserved.
-
-    </section>
+    
   </body>
 </html>
