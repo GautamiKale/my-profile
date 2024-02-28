@@ -19,11 +19,22 @@
       color:red;
       font-weight:bold ;
     }
+    #c{
+      background-color: antiquewhite;
+    }
+    #textclr{
+      color: blue;
+    }
+    .liststyle{
+      list-style-type:circle;
+      background-color: blue;
+      
+    }
   </style>
   </head>
   <body>
     <!-- Header Section -->
-    <header>
+    <header id="c">
         <p class="a"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
           </svg>&nbsp;Gautami Kale &nbsp;&nbsp;&nbsp;
@@ -56,10 +67,12 @@
         
         <!-- HOME Section -->
       <section id="home">
-        <h2 style="color: blue;font-style: italic; ">Professional Summary</h2>
+        <h2 style="color: blue;font-style: italic;background-color: antiquewhite;"b>Career Objective</h2>
+        <P>TO WORK IN ORGANIZATION WHERE I CAN GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</P>
+        <h2 style="color: blue;font-style: italic;background-color: antiquewhite; ">Professional Summary</h2>
         <ul>
-          <li>Having a 1 years of experience in developing single pge web Application using Angular 8,HTML5,CSS,Bootstrap 5,JavaScript,TypeScript.</li>
-          <li>Experience on working with version control system-GIT and GitHub</li>
+          <li>Having a 1 years of experience in developing single pge web Application using<span id="textclr"> Angular 8,HTML5,CSS,Bootstrap 5,JavaScript,TypeScript.</li>
+          <li class="liststyle">Experience on working with version control system-GIT and GitHub</li>
           <li>Experince with working with JIRA for user stories and bug tracking</li>
           <li>Strong Debugging and Troubleshooting code experince using Chrome Developer Tool.</li>
           <li>Working expouser on IDs like VS code and Notepad++.</li>
