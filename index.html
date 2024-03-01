@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -11,6 +15,7 @@
       header{
         padding: 20px;
         background-color: rgb(216, 244, 245);
+        font-family: "Roboto", sans-serif;
       }
       #resume{
         color: orange;
@@ -23,27 +28,54 @@
       .header-info{
         margin-right: 40px;
         margin-left: 10px;
+        font-family: "Poppins", sans-serif;
       }
       #resume-text{
         margin-left: 10px;
       }
       .nav-info{
         padding-left: 20px;
+        font-family: "Roboto", sans-serif;
       }
       .footer-info{
         margin-right:10px;
         margin-left: 5px;
+        font-family: "Poppins", sans-serif;
       }
       li{
         padding-top: 15px;
+        font-family: "Poppins", sans-serif;
       }
-      td{
+      /*td{
         padding-top: 6px;
       }
       th{
         padding-top: 6px;
-      }
+      }*/
+      table,td,th,td{
+        border: 2px solid rgb(50, 51, 52);
+        border-collapse: collapse;
+        font-family: "Poppins", sans-serif;
 
+      }
+     #tachtable{
+      width: 50%;
+      
+      font-family: "Poppins", sans-serif;
+     }
+     .summary{
+      color: blue;
+      background-color: antiquewhite;
+      font-family: "Roboto", sans-serif;
+     }
+     .prof{
+      color: blue;
+     background-color: antiquewhite;
+      font-family: "Roboto", sans-serif;
+     }
+     #project{
+      font-family: "Poppins", sans-serif;
+     }
     </style>
   </head>
   <body>
@@ -73,9 +105,9 @@
         
         <!-- HOME Section -->
       <section id="home">
-        <h2 style="color: blue;font-style: italic;background-color: antiquewhite;"b>Career Objective</h2>
+        <h2 class="summary">Career Objective</h2>
         <P>TO WORK IN ORGANIZATION WHERE I CAN GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</P>
-        <h2 style="color: blue;font-style: italic;background-color: antiquewhite; ">Professional Summary</h2>
+        <h2 class="prof">Professional Summary</h2>
         <ul>
           <li>Having a 1 years of experience in developing single pge web Application using<span id="textclr"> Angular 8,HTML5,CSS,Bootstrap 5,JavaScript,TypeScript.</li>
           <li class="liststyle">Experience on working with version control system-GIT and GitHub</li>
@@ -89,9 +121,9 @@
         </ul>
       </section>
       <hr>
-  <section id="techstack">
-  <h2>Technology Stack</h2>
-  <table border="1">
+  <section id="tachstack">
+  <h2 style="color: blue;background-color: antiquewhite;"> Technology Stack</h2>
+  <table id="tachtable">
         <thead>
             <tr>
                 <th>Sr.No</th>
@@ -124,7 +156,7 @@
   <hr>
 </section>
 <section id="project">
-  <h2>Project Detils</h2>
+  <h2 style="color: blue;background-color: antiquewhite;">Project Detils</h2>
     <hr>
      <p><strong>Name: <U>Student Mangement</U></strong><br></p>
        <p><u>Enviornment</u>:Angular,React,Java,Javascript,HTML,CSS,Bootstrap,GitHub,Agile and JIRA <br> </p>
@@ -144,7 +176,7 @@
 <hr>
 </section>
     <section id="education">
-<h2>Education Details</h2>
+<h2 style="color: blue;background-color: antiquewhite;">Education Details</h2>
 <table border="1">
   <thead>
       <tr>
