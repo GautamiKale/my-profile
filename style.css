@@ -1,0 +1,105 @@
+   
+ /* Universal Selector 
+*{
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}*/
+      header{
+        padding: 20px;
+        background-color: rgb(216, 244, 245);
+        font-family: "Roboto", sans-serif;
+        position: fixed;
+      }
+      /* Navigation Section */
+#navSection{
+    padding: 10px;
+    text-align: right;
+}
+#navSection li{
+    display: inline;
+    margin-right: 40px;
+}
+      #resume{
+        color: orange;
+        font-weight: bolder;
+      }
+      .heading{
+        color: cadetblue;
+        font-style: italic;
+      }
+      .header-info{
+        margin-right: 40px;
+        margin-left: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+      #resume-text{
+        margin-left: 10px;
+      }
+      .nav-info{
+        padding-left: 20px;
+        font-family: "Roboto", sans-serif;
+      }
+      .footer-info{
+        margin-right:10px;
+        margin-left: 5px;
+        font-family: "Poppins", sans-serif;
+      }
+      li{
+        padding-top: 15px;
+        font-family: "Poppins", sans-serif;
+      }
+      /* Container Section */
+#container{
+    width: 800px;
+    margin: 20px auto;
+}
+      /*td{
+        padding-top: 6px;
+      }
+      th{
+        padding-top: 6px;
+      }*/
+      table,td,th,td{
+        border: 2px solid rgb(50, 51, 52);
+        border-collapse: collapse;
+        font-family: "Poppins", sans-serif;
+
+      }
+     #tachtable{
+      width: 50%;
+      
+      font-family: "Poppins", sans-serif;
+     }
+     .summary{
+      color: blue;
+      background-color: antiquewhite;
+      font-family: "Roboto", sans-serif;
+     }
+     .prof{
+      color: blue;
+     background-color: antiquewhite;
+      font-family: "Roboto", sans-serif;
+     }
+     #project{
+      font-family: "Poppins", sans-serif;
+     }
+     #listsummary li{
+      list-style:square ;
+     }
+     #listSummary li{
+        list-style-type: none;
+      }
+      #listSummary li::marker{
+        content: "✍️";
+      }
+     .roles{
+      list-style-type: lower-alpha;
+      padding: 5px;
+     }
+     .roles li{
+      padding-top: 8px;
+     }
+     #projectsel::selection{
+      color: blanchedalmond;
+     }
